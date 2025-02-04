@@ -1,0 +1,13 @@
+with the help of babel we convert react code in js
+in public folder static file store that cannnot change
+in src all files are controled
+index file cannot be change all file store in that root id
+dependencies in json file
+reference of dependencies in lock json file
+in js we can target html by class, id or tag
+javascript xml(jsx) make because to make js and html smoothly work :extensible markup language(xml)
+hw: jsx? and rule to write 3 to 4 are there
+every section is component(block of code use for reusability) in react(like navbar and something)
+so react is component based architecture 
+2 types functional and class component 
+code come with app.jsx then come in main.js to index.html
