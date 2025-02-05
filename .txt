@@ -11,3 +11,6 @@ every section is component(block of code use for reusability) in react(like navb
 so react is component based architecture 
 2 types functional and class component 
 code come with app.jsx then come in main.js to index.html
+
+05 feb
+2 css runs app.css is local and index.css is global 
