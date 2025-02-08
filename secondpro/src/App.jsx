@@ -1,5 +1,5 @@
 import Card from "./Card"; 
-import Navbar from "./navbar"; // Importing the Navbar component
+import Navbar from "./Navbar"; // Importing the Navbar component
 import "./App.css"; // Importing external CSS file
 
 function App() {
