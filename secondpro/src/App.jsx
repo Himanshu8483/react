@@ -1,3 +1,4 @@
+import Card from "./Card"; 
 import Navbar from "./navbar"; // Importing the Navbar component
 import "./App.css"; // Importing external CSS file
 
@@ -12,6 +13,8 @@ function App() {
     <>
       {/* Rendering the Navbar component */}
       <Navbar />
+      <Card/>
+
 
       {/* Inline CSS example - Text color is set directly */}
       <h1 style={{ color: "red" }}>Welcome</h1>

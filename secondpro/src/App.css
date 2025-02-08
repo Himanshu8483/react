@@ -69,6 +69,45 @@ body{
   transform: scale(1.5);
   cursor: pointer;
 }
+.herro{
+  background:"skyblue";
+  display:"flex";
+  justify-content:'space-around';
+  align-items:"center"
+}
+header{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header h3{
+  flex-basis: 50%;
+  letter-spacing: 1px;
+  padding: 5%;
+  font-size: large;
+}
+header img{
+  flex-basis: 50%;
+}
+
+.cardSection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+.cardSection p {
+  padding: 0 5%;
+}
+.cardSection button {
+  background-color: #0c5d69;
+  padding:10px 30px;
+  color: white;
+  border-radius: 5px;
+  font-size: large;
+  
+}
 @media screen and (max-width: 1000px) {
   .navbar {
 
