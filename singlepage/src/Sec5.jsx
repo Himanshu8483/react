@@ -14,12 +14,12 @@ let Sec5=()=>{
             <div className="container">
                 <div><img src="1.png" alt="" /></div>
                 <div><img src="2.png" alt="" /></div>
-                <div><img src="3.png" alt="" /></div>
+                <div><img src="9.png" alt="" /></div>
             </div>
             <div className="container">
                 <div><img src="4.png" alt="" /></div>
                 <div><img src="5.png" alt="" /></div>
-                <div><img src="6.png" alt="" /></div>
+                <div><img src="7.png" alt="" /></div>
             </div>
             </div>
         </section>

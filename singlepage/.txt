@@ -1,0 +1,2 @@
+import { FaCar} from 'react-icons/fa'
+npm install react-icons to install icon library and access directly 

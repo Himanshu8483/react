@@ -1,5 +1,6 @@
 import './App.css'
-
+import {FaHome} from "react-icons/fa";
+import {FaSearch} from "react-icons/fa";
 let Nav=()=>{
     return(
         <>
@@ -7,8 +8,8 @@ let Nav=()=>{
         <nav className="navbar">
             <h1>CAR G</h1>
             <ul>
-                <li>Home</li>
-                <li>About</li>
+                <li><FaHome color='skyblue' size={30}/> Home</li>
+                <li><FaSearch/> About</li>
                 <li>Service</li>
                 <li>Contact</li>
                 <li>Others</li>

@@ -1,4 +1,8 @@
 import './App.css'
+import {FcHome} from "react-icons/fc";
+import {FcAbout} from "react-icons/fc";
+import {FcServices} from "react-icons/fc";
+import {FcContacts} from "react-icons/fc";
 
 let Footer=()=>{
     return(
@@ -11,11 +15,11 @@ let Footer=()=>{
                 
             </div>
             <div>
-                <span>Quic Link</span>
+                <span>Quick Link</span>
                 <ul className='ull'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Service</li>
+                    <li><FcHome size={40}/> Home</li>
+                    <li><FcAbout/> About</li>
+                    <li><FcServices/> Service</li>
                     <li>Contact</li>
                     <li>Others</li>
                 </ul>
@@ -25,7 +29,7 @@ let Footer=()=>{
                 Phone: +123 456 7890 <br />
                 Email: contact@doctorcare.com <br />
                 Location: 123 Health Street, City, Country</p></div>
-            <div><span>Follow Us</span>
+            <div><span>Follow Us</span><br />
             </div>
             </div>
         <div>© 2025 CAR G. All Rights Reserved.</div>

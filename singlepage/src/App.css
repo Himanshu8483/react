@@ -239,6 +239,11 @@ img {
 .footer div{
   flex-basis: 25%;
 }
+.footer i {
+  padding: 10px;
+  font-size: 30px;
+
+}
 .ull {
   gap: 5px;
   display: block;
