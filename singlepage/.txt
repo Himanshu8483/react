@@ -1,2 +1,15 @@
-import { FaCar} from 'react-icons/fa'
-npm install react-icons to install icon library and access directly 
+variable always use in curlibraces
+
+    let name ="in Car G"
+    let age=prompt("Enter Your Age: ")
+
+            <h1 style={{display:"inline"}}>Welcome {name} & Your Age {age} Years</h1>
+
+# - Arguments are passed when calling a function.
+# - Parameters are declared in the function definition.
+
+props is the property that's combination of attribute and parameter
+used to parent to child data flow
+props is the object?
+
+destructuring of object and array
