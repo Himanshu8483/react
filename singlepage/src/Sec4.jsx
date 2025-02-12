@@ -1,4 +1,3 @@
-import './App.css'
 
 let Sec4=()=>{
     return(

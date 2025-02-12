@@ -10,6 +10,6 @@ variable always use in curlibraces
 
 props is the property that's combination of attribute and parameter
 used to parent to child data flow
-props is the object?
+props is the object in child component
 
 destructuring of object and array

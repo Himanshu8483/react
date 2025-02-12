@@ -1,8 +1,4 @@
-import './App.css'
-import {FcHome} from "react-icons/fc";
-import {FcAbout} from "react-icons/fc";
-import {FcServices} from "react-icons/fc";
-import {FcContacts} from "react-icons/fc";
+
 
 let Footer=()=>{
     return(
@@ -17,9 +13,9 @@ let Footer=()=>{
             <div>
                 <span>Quick Link</span>
                 <ul className='ull'>
-                    <li><FcHome size={40}/> Home</li>
-                    <li><FcAbout/> About</li>
-                    <li><FcServices/> Service</li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
                     <li>Contact</li>
                     <li>Others</li>
                 </ul>
