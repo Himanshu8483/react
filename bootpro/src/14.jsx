@@ -1,5 +1,4 @@
-import { Button, Row, Col } from 'react-bootstrap'
-import Container from 'react-bootstrap/Container';
+import { Button, Row, Col, Container } from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -44,7 +43,7 @@ function prac(){
 
         <Container>
             <Row>
-                <Col lg={6} md={6} sm={12} className='bg-success ml-1 p-3'>
+                <Col lg={6} md={6} sm={12} className='bg-success  p-3'>
                 <h1>First Column</h1>
                 <Button>Hello</Button>
                 </Col>
