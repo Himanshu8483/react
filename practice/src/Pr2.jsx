@@ -1,8 +1,8 @@
 const Pr2 = (props) => {
-  let {name, agee}= props
+  let {nname, aagee}= props
     return (
         <>
-        <h1>{name} Hello World {agee} from Practice2</h1>
+        <h1>{nname} Access Props {aagee} in Practice2</h1>
         </>
     )
 }

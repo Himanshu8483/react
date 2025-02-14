@@ -1,6 +1,5 @@
 import './App.css'
 import Prac from './Practice'
-
 // Main App Component
 function App() {
   return (

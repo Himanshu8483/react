@@ -1,15 +1,9 @@
-variable always use in curlibraces
+React 
+two types of container : 
+contiainer fluid( no margin default) and contiainer (margin left and margin)
+max 12 fluid and devide into any part with addion of 12
+mobile(sm),tablet(md), laptop , destop(lg)
 
-    let name ="in Car G"
-    let age=prompt("Enter Your Age: ")
-
-            <h1 style={{display:"inline"}}>Welcome {name} & Your Age {age} Years</h1>
-
-# - Arguments are passed when calling a function.
-# - Parameters are declared in the function definition.
-
-props is the property that's combination of attribute and parameter
-used to parent to child data flow
-props is the object in child component
-
-destructuring of object and array
+bootstrap framework classes
+                <Col lg={6} md={6} sm={12} className='bg-success' className='bg-danger text-white p-4'>
+        {/* copy from react bootstrap> navbars>live editor */}
