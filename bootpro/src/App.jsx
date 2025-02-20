@@ -10,6 +10,7 @@ function App() {
       {/* <h1><FaHome/>Hello</h1>
       <Button>Hello</Button>
       <button>Hello</button> */}
+
       <Prac/>
       
     </>
