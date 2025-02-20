@@ -1,0 +1,18 @@
+1 = event are called actions
+2 = not call function with ()parenthesis
+3 = if we need to change anything in ui(user interface) =useState 
+4 = we have hook in useState 
+5 = it is a special function which return array in destructure form
+6 = synstax = let[variable,function]=useState(initial state/initial value)
+
+
+library install react-router-dom 
+for not refreshing page reload in same page 
+for navigate
+
+components are come 
+browser Router = routing enable
+Routes = Route define for navigate means where to where go
+Route
+
+url set in route
