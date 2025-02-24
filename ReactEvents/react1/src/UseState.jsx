@@ -8,9 +8,8 @@ function UseState(){
     let [name,setName]=useState("")
 
     function Demo(){
-        setName("Jatin Parmar")
+        setName("Himanshu Kushwaha")
     }
-
 
     return(
 

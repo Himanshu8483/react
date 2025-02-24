@@ -27,10 +27,10 @@ function App() {
         {/* example */}
 
 
-        <button onClick={()=>func("Jatin Parmar Click")}>Click onClick</button> <br /> <br />
-        <button onDoubleClick={()=>func("Jatin Parmar DoubleClick")}>DoubleClick</button> <br /> <br />
-        <button onMouseEnter={()=>func("Jatin Parmar Enter")}>MouseEnter</button> <br /> <br />
-        <button onMouseLeave={()=>func("Jatin Parmar Leave")}>MouseLEave</button> <br /> <br />
+        <button onClick={()=>func("Himanshu Kushwaha Click")}>Click onClick</button> <br /> <br />
+        <button onDoubleClick={()=>func("Himanshu Kushwaha DoubleClick")}>DoubleClick</button> <br /> <br />
+        <button onMouseEnter={()=>func("Himanshu Kushwaha Enter")}>MouseEnter</button> <br /> <br />
+        <button onMouseLeave={()=>func("Himanshu Kushwaha Leave")}>MouseLeave</button> <br /> <br />
 
         <Task/>
         <UseState/>

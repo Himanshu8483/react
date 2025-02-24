@@ -11,9 +11,11 @@ function Layout(){
                 <li><Link to='Services'>Services</Link></li>
             </ul>
         </nav>
+
         <div>
             <Outlet/>
         </div>
+        
         <footer>
             <div>
         <h1>Footer Section</h1>

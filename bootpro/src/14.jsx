@@ -11,7 +11,7 @@ function prac(){
 
         <>
         {/* copy from react bootstrap> navbars>live editor */}
-            <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap Navbar</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -48,8 +48,8 @@ function prac(){
                 <Button>Hello</Button>
                 </Col>
                 <Col lg={6} md={6} sm={12} className='bg-danger text-white p-4 g-0'>
-                <h1 variant='success'>Second Column</h1>
-                <Button variant='success'> <FaCar style={{color:"skyblue", fontSize:"100"}}/></Button>
+                <h1 className='bg-success'>Second Column</h1>
+                <Button variant='success'> <FaCar style={{color:"skyblue", fontSize:"100"}}/>Hello=====</Button>
                 </Col>
             </Row>
         </Container>

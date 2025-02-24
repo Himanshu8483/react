@@ -6,13 +6,19 @@
 6 = synstax = let[variable,function]=useState(initial state/initial value)
 
 
-library install react-router-dom 
+library: npm install react-router-dom 
 for not refreshing page reload in same page 
 for navigate
 
 components are come 
 browser Router = routing enable
 Routes = Route define for navigate means where to where go
-Route
+Route = components render
 
-url set in route
+url set in route to work to change address
+
+all components that render in react websites is url based 
+add that url is set by the routes and route 
+
+with the help of outlet will show the components 
+anchor tag not use because it refreshing the page so use Link tag

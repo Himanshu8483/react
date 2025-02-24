@@ -22,15 +22,14 @@ function Inc(){
        if (sum!=0){
         setSum(sum-1)
        }
-        
     }
 
 
     return(
         <>
             <h1>Count is :- {sum}</h1>
-            <button onClick={incre}>Increament</button>  <br /> <br /><button onClick={decre}> Decreament</button>
-
+            <button onClick={incre}>Increament</button>  <br /> <br />
+            <button onClick={decre}> Decreament</button>
         </>
     )
 }

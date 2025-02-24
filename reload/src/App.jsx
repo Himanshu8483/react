@@ -7,6 +7,7 @@ import { Route,Routes } from 'react-router-dom'
 import Navbar from './Component/Navbar'
 import Footer from './Component/Footer'
 import Layout from './Component/Layout'
+import Gallary from "./Component/Gallary"
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
     <Services/> */}
       {/* <Navbar/> */}
     <Routes>
-        <Route path='/' element={<Layout/>}>
+          <Route path='/Gallary' element={<Gallary/>}/>
+          <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path='/Services' element={<Services/>}/>
