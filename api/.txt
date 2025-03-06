@@ -1,0 +1,3 @@
+redux 
+
+axious library for react to work without async await for small work

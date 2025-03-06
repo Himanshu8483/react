@@ -1,0 +1,27 @@
+1 = event are called actions
+2 = not call function with ()parenthesis
+3 = if we need to change anything in ui(user interface) =useState 
+4 = we have hook in useState 
+5 = it is a special function which return array in destructure form
+6 = synstax = let[variable,function]=useState(initial state/initial value)
+
+
+library: npm install react-router-dom 
+for not refreshing page reload in same page 
+for navigate
+
+components are come 
+browser Router = routing enable
+Routes = Route define for navigate means where to where go
+Route = components render
+
+url set in route to work to change address
+
+all components that render in react websites is url based 
+add that url is set by the routes and route 
+
+with the help of outlet will show the components 
+anchor tag not use because it refreshing the page so use Link tag
+
+
+make a notes on react router dom install to syntax where and how to use why use define in simple and understand me in simple way to revise and make notes in short way in single page example with comment what you do for example 

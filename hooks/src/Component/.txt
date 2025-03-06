@@ -1,0 +1,19 @@
+es7 extension install 
+useEffect:
+array form accept dependency and callback   
+accept function and dependency
+continusly work per time render
+so make it dependent by empty dependency so page render one time
+when pass in dependency color it refresh the all data all time
+
+
+
+Spread Operator
+The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
+
+
+10mb data store max by local storage
+
+local storage 
+-> set,get, removeitem,clear
+-> key value pair -> data string
