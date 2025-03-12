@@ -1,49 +1,59 @@
 import axios from 'axios'
-import {use, useEffect, useState} from 'react'
+import { useEffect, useState} from 'react'
 
 function App() {
-
+  // State to store API data
   const [apiData, setApiData]= useState([])
+
+    // Fetch data from API when component mounts
   useEffect(()=>{
     axios.get('http://localhost:3000/students')
     .then(res=>{setApiData(res.data)})
-  }, [del])
+  }, [del])     // not pass in google
 
+    // Function to delete a student by ID
   function del(id){
     axios.delete(`http://localhost:3000/students/${id}`)
     .then(res=>alert("Deleted"))
   }
 // post method 
-const [insertData, setInsertData]= useState([])
+  // State to store form input data for inserting a new student
+const [insertData, setInsertData]= useState({})
+  // Handle input change for post method
 function inputChange(e){
   const{name, value} = e.target 
   setInsertData({...insertData, [name]:value})
 }
-
+  // Function to submit new student data (POST request)
 function postSubmit(e){
   e.preventDefault()
   axios.post("http://localhost:3000/students", insertData)
   .then(res=>{console.log(res.data)})
   .then(alert("Data Inserted"))
-  // .then(res=>alert("Data Inserted"))
 }
 
 // put Method 
+  // State to manage edit form visibility
 let [showForm, setForm] =useState(false)
+  // State to store student data for editing
 let [editData, setEditData] = useState({})
+  // Handle input change for editing
 function editChange(e){
   const{name, value} = e.target 
   setEditData({...editData, [name]: value})
 }
+  // Function to update student data (PUT request)
 function putSubmit(e){
   e.preventDefault()
   axios.put(`http://localhost:3000/students/${editData.id}`, editData)
+  setForm(false);
+  alert("Data Updated");
 }
 
-// table Content 
+  // Generate table content dynamically from API data
 const tableData =   
-      apiData.map((e, index)=>{return<>
-        <tr key={index}>
+      apiData.map((e, index)=>(
+        <tr key={e.id}>
         <td>{index+1}</td>
         <td>{e.name}</td>
         <td>{e.age}</td>
@@ -52,11 +62,11 @@ const tableData =
         <td><button onClick={()=>del(e.id)}>Delete</button></td>
         <td><button onClick={()=>(setForm(true), setEditData(e))}>Edit</button></td>
       </tr>
-        </>
-      })
+      ))
 
   return (
     <>
+          {/* Table to display students' data */}
       <table border="3" >
         <thead>
           <tr>
@@ -73,6 +83,8 @@ const tableData =
             {tableData}
         </tbody>
       </table>
+
+            {/* Form to add new student data */}
       <h1>Post Method For Create</h1>
       <form onSubmit={postSubmit}>
         <label>Name</label>
@@ -86,6 +98,7 @@ const tableData =
         <input type="submit" />&nbsp;&nbsp;
       </form>
 
+      {/* Form to edit student data (only visible when editing) */}
       {showForm && (
       <form onSubmit={putSubmit}>
       <h1>Put Method for Update</h1>
