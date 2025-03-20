@@ -1,0 +1,23 @@
+redux is a  library
+rtk redux toolkit
+redux toolkit is used to resolve the boundation of accessing data from parent to child so data can be globaly accessed throughout anywehere.
+react-redux, readux-toolkit two libraries install,
+
+ex. add to cart
+button click(add): action Dispatch ==> function exicute (reducer) to write ==> storing in store 
+store is just like an object 
+so make slices in store for arrange differentiate data in an ordarly format rather than miscellanious data altogeather.
+so user can fetch particular type of data 
+"write"
+slice can be array or object 
+via reducer we modify slice
+
+then for reading data from store use selector(read).
+
+step:
+library install 
+npm i react-redux for bridge from component fto store
+npm i @reduxjs/toolkit  for providing slice, ..
+build store(if store is building slicing will required in store)  & create slice
+Action Dispatch
+selector 
