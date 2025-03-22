@@ -13,11 +13,13 @@ function ShowCart(){
             {
             shdata.map((e)=>{
                 return(
-                    <>
+                    <div key={e.id} style={{border:"2px solid black", padding:"5px"}}>
+
                     <h1>{e.name}</h1>
                     <h1>{e.price}</h1>
                     <img src={e.pimg} alt=""/>
-                    </>
+                    </div>
+
                 )
             })
         }
