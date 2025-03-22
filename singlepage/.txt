@@ -1,9 +1,0 @@
-👉👉👉👉👉👉 📗📖📖📖📖📖📖💻💻📴
-two types of container : 
-contiainer fluid( no margin default) and contiainer (margin left and margin)
-max 12 fluid and devide into any part with addion of 12
-mobile(sm),tablet(md), laptop , destop(lg)
-
-bootstrap framework classes
-                <Col lg={6} md={6} sm={12} className='bg-success' className='bg-danger text-white p-4'>
-        {/* copy from react bootstrap> navbars>live editor */}
