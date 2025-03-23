@@ -6,4 +6,3 @@ const AppStore = configureStore({
     }
 });
 export default AppStore
-// name : appstore name by sir 
